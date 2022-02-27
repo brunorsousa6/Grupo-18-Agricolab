@@ -1,5 +1,4 @@
-# Grupo-2.4
-Agricultura Familiar
+# Grupo 2.4 - Agricultura Familiar
 
 1. Ananda de Oliveira Gonçalves Antenor
 1. Arthur Rigolon Lança
