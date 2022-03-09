@@ -16,7 +16,6 @@
 
 # Pré Requisitos
 
-* Android Studio
 * JDK 11
 * IDE ( Eclipse, IntelliJ, Spring Tool Suite)
 
