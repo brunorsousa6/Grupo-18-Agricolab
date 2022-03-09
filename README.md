@@ -1,4 +1,4 @@
-# Grupo 2.4 - AgroSoft
+# Grupo 18 - AgroSoft
 
 [![tests](https://github.com/ES-UFABC/Grupo-2.4-AgroSoft/actions/workflows/tests.yml/badge.svg)](https://github.com/ES-UFABC/Grupo-2.4-AgroSoft/actions/workflows/tests.yml)
 
