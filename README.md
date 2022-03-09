@@ -1,6 +1,6 @@
 # Grupo 2.4 - AgroSoft
 
-[![GitHub Actions Demo](https://github.com/ES-UFABC/Grupo-2.4-AgroSoft/actions/workflows/github-actions-demo.yml/badge.svg?branch=master)](https://github.com/ES-UFABC/Grupo-2.4-AgroSoft/actions/workflows/github-actions-demo.yml)
+[![tests](https://github.com/ES-UFABC/Grupo-2.4-AgroSoft/actions/workflows/github-actions-demo.yml/badge.svg?branch=master)](https://github.com/ES-UFABC/Grupo-2.4-AgroSoft/actions/workflows/github-actions-demo.yml)
 
 1. Ananda de Oliveira Gonçalves Antenor
 1. Arthur Rigolon Lança
