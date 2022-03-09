@@ -7,21 +7,24 @@
 1. Wesley Batista Soares
 1. Paulo Consoni
 
-
-
+=======================
 # Sobre
 
--------------------
+=======================
 
 # Pré Requisitos
 
+* Android Studio
 * JDK 11
 * IDE ( Eclipse, IntelliJ, Spring Tool Suite)
 
+========================
 
-----------------------
+# Desenho Arquitetura
+
+========================
 
 
 # Como usar
 
------------------
+
