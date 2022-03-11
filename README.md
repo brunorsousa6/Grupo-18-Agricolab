@@ -35,3 +35,6 @@
 # Como usar
 =======
 
+# Banco dados - Entidades
+TODO
+![repository](https://user-images.githubusercontent.com/32601542/157987135-902fce02-d728-4e4d-b72c-4830896a782c.png)
