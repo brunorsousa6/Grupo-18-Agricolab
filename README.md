@@ -1,4 +1,4 @@
-# Grupo 18 - AgroLab
+# Grupo 18 - Agricolab
 
 [![tests](https://github.com/ES-UFABC/Grupo-18-AgroLab/actions/workflows/tests.yml/badge.svg)](https://github.com/ES-UFABC/Grupo-18-AgroLab/actions/workflows/tests.yml)
 
