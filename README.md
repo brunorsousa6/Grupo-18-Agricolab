@@ -17,6 +17,7 @@
 # Pré Requisitos
 
 * JDK 11
+* Spring Framework
 * IDE ( Eclipse, IntelliJ, Spring Tool Suite)
 
 ========================
