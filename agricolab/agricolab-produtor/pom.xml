@@ -9,28 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>agricolab-aplication</artifactId>
-
+    <artifactId>agricolab-produtor</artifactId>
     <dependencies>
-        <dependency>
-            <groupId>br.com</groupId>
-            <artifactId>agricolab-core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>br.com</groupId>
-            <artifactId>agricolab-produtor</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>br.com</groupId>
             <artifactId>agricolab-repository</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>br.com</groupId>
             <artifactId>agricolab-domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
