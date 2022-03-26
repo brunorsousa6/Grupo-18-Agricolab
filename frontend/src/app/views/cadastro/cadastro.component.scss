@@ -1,0 +1,15 @@
+.main {
+    height: 100vh;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+}
+
+.form-input input {
+    border: 1px solid black;
+    border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+<main class="main">
+    <form
+    #form="ngForm"
+    (ngSubmit)="teste($event)"
+    [formGroup]="cadastroForm"
+    id="cadastro-form"
+    >
+        <div class="form-input">
+            <label for="nome">Nome</label>
+            <input type="text" formControlName="nome" name="nome">
+        </div>
+        <div class="form-input">
+            <label for="email">Email</label>
+            <input type="email" formControlName="email" name="email">
+        </div>
+        <div class="form-input">
+            <label for="telefone">Telefone</label>
+            <input type="tel" formControlName="telefone" name="telefone">
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</main>
