@@ -24,6 +24,9 @@ public class ProdutorEntity {
     @Column(name="email_produtor", columnDefinition="VARCHAR", length = 100)
     private String emailProdutor;
 
+    @Column(name="username", columnDefinition="VARCHAR", length = 20)
+    private String username;
+
     @Column(name="senha_produtor", columnDefinition="VARCHAR", length = 20)
     private String senhaProdutor;
 

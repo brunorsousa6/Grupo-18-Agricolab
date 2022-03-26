@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Consumidor {
+public class ConsumidorRequest {
 
     private String username;
     private String nomeConsumidor;

@@ -5,11 +5,12 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Produtor {
+public class ProdutorRequest {
 
-    private String nome;
+    private String username;
     private Integer id;
     private String nomeprodutor;
+    private String password;
     private String emailProdutor;
     private String senhaProdutor;
     private String cnpjProdutor;

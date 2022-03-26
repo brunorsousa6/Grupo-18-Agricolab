@@ -13,7 +13,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name="consumers", uniqueConstraints={@UniqueConstraint(columnNames={"email_consumidor"})})
+@Table(name="consumers", uniqueConstraints={@UniqueConstraint(columnNames={"username"})})
 public class ConsumidorEntity {
 
     @Id
@@ -27,8 +27,11 @@ public class ConsumidorEntity {
     @Column(name="email_consumidor", columnDefinition="VARCHAR", length = 100)
     private String emailConsumidor;
 
+    @Column(name="username", columnDefinition="VARCHAR", length = 20)
+    private String username;
+
     @Column(name="senha_consumidor", columnDefinition="VARCHAR", length = 20)
-    private String senhaConsumidor;
+    private String password;
 
     @Column(name="cpf_consumidor", columnDefinition="VARCHAR", length = 11)
     private String cpfConsumidor;
