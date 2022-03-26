@@ -37,7 +37,7 @@
 }
 
 .main h1 {
-    color: #5cdb94;
+    color: #fff;
     font-size: 2rem;
     margin-bottom: 2rem;
 }
@@ -47,16 +47,16 @@
 }
 
 .main a {
-    color: #5cdb94;
+    color: #fff;
     padding: 0.3rem;
 }
 
 .main a:hover {
-    background-color: rgba(92, 219, 148, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .form-input label {
-    color: #5cdb94;
+    color: #fff;
     padding: 0.3rem;
     display: block;
     text-align: center;
@@ -64,17 +64,33 @@
 
 .form-input input {
     color: #fff;
-    border-bottom: 2px solid #5cdb94;
+    border-bottom: 2px solid #fff;
     padding: 5px 10px;
     background-color: rgba(255, 255, 255, 0.0);
     margin-bottom: 1rem;
 }
 
 .form-input input:hover {
-    border-bottom: 2px solid #4ab176;
+    border-bottom: 2px solid #cfcfcf;
 }
 
 .form-input input:focus {
     outline: none !important;
-    border-bottom: 2px solid #38885a;
+    border-bottom: 2px solid #a0a0a0;
+}
+
+.form-input input:-webkit-autofill { 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff !important;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .logo img {
+        width: 4vw;
+    }
+
+    .main form {
+        width: 25vw;
+    }
 }

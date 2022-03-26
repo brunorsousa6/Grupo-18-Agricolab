@@ -59,6 +59,11 @@
     border-bottom: 2px solid #036bd3;
 }
 
+.form-input input:-webkit-autofill { 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #000 !important;
+}
+
 .main h1 {
     margin-top: 5.5rem;
     font-size: 2rem;
