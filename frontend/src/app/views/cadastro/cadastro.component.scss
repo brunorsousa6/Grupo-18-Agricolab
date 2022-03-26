@@ -4,6 +4,7 @@
     justify-content: flex-start;
     align-items: center;
     margin: 1rem;
+    position: absolute;
 }
 
 .logo h4 {
@@ -44,17 +45,22 @@
 }
 
 .form-input input {
-    border: 2px solid #00386f;
-    border-radius: 10px;
+    border-bottom: 2px solid #00386f;
     padding: 5px 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.0);
 }
 
 .form-input input:hover {
-    border: 2px solid #034d97;
+    border-bottom: 2px solid #034d97;
+}
+
+.form-input input:focus {
+    outline: none !important;
+    border-bottom: 2px solid #036bd3;
 }
 
 .main h1 {
+    margin-top: 5.5rem;
     font-size: 2rem;
     padding-left: 0.75rem;
 }
