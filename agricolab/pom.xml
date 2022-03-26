@@ -10,7 +10,8 @@
 		<module>agricolab-repository</module>
 		<module>agricolab-aplication</module>
 		<module>agricolab-produtor</module>
-	</modules>
+        <module>agricolab-consumidor</module>
+    </modules>
 
     <parent>
 		<groupId>org.springframework.boot</groupId>
