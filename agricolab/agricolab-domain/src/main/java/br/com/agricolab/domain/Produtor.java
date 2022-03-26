@@ -8,18 +8,12 @@ import lombok.Setter;
 public class Produtor {
 
     private String nome;
-
     private Integer id;
-
     private String nomeprodutor;
-
     private String emailProdutor;
-
+    private String senhaProdutor;
     private String cnpjProdutor;
-
     private String cpfProdutor;
-
     private String telefoneProdutor;
-
     private String EnderecoProdutor;
 }

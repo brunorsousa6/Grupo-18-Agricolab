@@ -2,6 +2,7 @@ package br.com.agricolab.produtor.controller;
 
 import br.com.agricolab.repository.adapter.ProdutorRepository;
 import br.com.agricolab.repository.model.ProdutorEntity;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,13 +11,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping({"/produtor"})
+@RequiredArgsConstructor
 public class Controller {
 
     private ProdutorRepository produtorRepository;
-
-    Controller(ProdutorRepository produtorRepository) {
-        this.produtorRepository = produtorRepository;
-    }
 
     @GetMapping
     public List findAll(){
