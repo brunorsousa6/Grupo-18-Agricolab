@@ -21,6 +21,9 @@ public class ProdutorEntity {
     @Column(name="nome_produtor", nullable=true, columnDefinition="VARCHAR", length = 200)
     private String nomeProdutor;
 
+    @Column(name="tipo_produtor", nullable=true, columnDefinition="VARCHAR", length = 2)
+    private String tipoProdutor;
+
     @Column(name="email_produtor", nullable=true, columnDefinition="VARCHAR", length = 100)
     private String emailProdutor;
 
@@ -35,5 +38,16 @@ public class ProdutorEntity {
 
     @Column(name="endereco_produtor", nullable=true, columnDefinition="VARCHAR", length = 100)
     private String enderecoProdutor;
+
+    @Column(name="compl_end_produtor", nullable=true, columnDefinition="VARCHAR", length = 40)
+    private String complementoEnderecoProdutor;
+
+    @Column(name="lat_produtor", nullable=true, columnDefinition="VARCHAR", length = 10)
+    private String latitudeProdutor;
+
+    @Column(name="long_produtor", nullable=true, columnDefinition="VARCHAR", length = 10)
+    private String longitudeProdutor;
+
+
 
 }

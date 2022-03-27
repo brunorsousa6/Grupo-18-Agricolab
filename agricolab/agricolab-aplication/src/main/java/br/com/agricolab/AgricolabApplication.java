@@ -18,7 +18,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 
-@SpringBootApplication(scanBasePackages = {"br.com.agricolab", "br.com.agricolab.produtor.controller.Controller"})
+@SpringBootApplication(scanBasePackages = {"br.com.agricolab", "br.com.agricolab.produtor.controller.ProdutorController", "br.com.agricolab.consumidor.controller.ConsumidorController"})
 public class AgricolabApplication {
 
 	@Value("${com.agricolab.jwt.aws.connectionTimeout}")
