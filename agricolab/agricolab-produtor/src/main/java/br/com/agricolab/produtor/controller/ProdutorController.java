@@ -10,11 +10,11 @@ import java.util.List;
 @CrossOrigin(maxAge = 3600)
 @RestController
 @RequestMapping({"/produtor"})
-public class Controller {
+public class ProdutorController {
 
     private ProdutorRepository produtorRepository;
 
-    Controller(ProdutorRepository produtorRepository) {
+    ProdutorController(ProdutorRepository produtorRepository) {
         this.produtorRepository = produtorRepository;
     }
 
@@ -54,7 +54,7 @@ public class Controller {
     }
 
     @DeleteMapping("/{id}")
-    void deleteEmployee(@PathVariable Integer id) {
+    void deleteProdutor(@PathVariable Integer id) {
         produtorRepository.deleteById(id);
     }
 
